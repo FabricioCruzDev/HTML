@@ -6,9 +6,33 @@ header {
   width: auto;
   height: 61px;
   background-color: #be6e4b;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
   color: rgb(34, 77, 120);
   font-weight: 200;
   font-size: 24px;
   text-align: center;
+}
+
+#title {
+  padding: 2px;
+  text-align: center;
+  color: rgb(34, 77, 120);
+  font-family: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-weight: 180;
+  font-size: 24px;
+}
+
+#title-content {
+  padding: 0px;
+  text-align: center;
+  font-family: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-size: 16px;
+}
+
+.buttons-bar {
+  border-width: 100%;
+  background-color: #be6e4b;
+  width: auto;
+  height: 10px;
+  padding: 2%;
 }
